@@ -1,0 +1,340 @@
+/* Fonts settings */
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ProximaNova_reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*Colors*/
+/*Basic setting*/
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ProximaNova_reg', sans-serif;
+  background: #C0C0C0;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+.logo   {
+  margin-top: 15px;
+}
+.button {
+  background-color: #fcd303;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #d9b503;
+}
+/*Typography*/
+section {
+  padding: 5rem 0;
+}
+.section-header {
+  margin: 2rem 0 10rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+/*main*/
+.main {
+  padding: 3rem 0 5rem;
+  background: #ffffff url(https://klike.net/uploads/posts/2022-09/1662893330_g-10.jpg) center center no-repeat;
+  background-size: cover;
+} 
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  margin-bottom: 4rem;
+  /*Главный заголоаок*/
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 4rem;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+.main-subtitle {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 3rem 4rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #46b814;
+  text-align: center;
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.main-trigger {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_bold', sans-serif;
+  display: block;
+  margin-top: 3rem;
+}
+.main-form {
+  padding: 4rem 5rem;
+  text-align: center;
+  background-color: #ffffff;
+  /*Заголовок формы*/
+  /*поле для ввода*/
+  /*Подписи к полям*/
+  /*Кнопка оставить заявку*/
+  /*Подпись под кнопкой*/
+}
+.main-form-header {
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+}
+.main-form-header strong {
+  font-size: 1.9rem;
+}
+.main-form-input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding: 1.5rem;
+}
+.main-form label {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+}
+.main-form-btn {
+  display: block;
+  width: 100%;
+  height: 5.5rem;
+  font-size: 1.6rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
+}
+.header {
+  height: 7%
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.phone-block {
+  text-align: right;
+}
+.phone-link {
+  display: inline-block;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #FFFF00;
+}
+h3 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  margin-top: 4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+/*Оформление секции с преимущесвами*/
+.fetures-block {
+  text-align: center;
+}
+.fetures-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.fetures-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.prev {
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background: url(../img/left-arrow.svg) center no-repeat;
+  border-style: 70%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: scaleY(-50%);
+          transform: scaleY(-50%);
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .main-content {
+    margin-top: 15rem;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+}
+.popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+	/*Всплывающий попап АНИМАЦИЯ */
+	transition: all 0.8s ease 0s;
+}
+.popup:target {
+	opacity: 1;
+	visibility: visible;
+}
+/*Движение попапа*/
+
+h2 {
+	line-height: 1.5;
+}
+
+.popup:target .popup__content {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+.popup__area {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.popup__body {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.popup__content {
+	background-color: #A9A9A9;
+	color: #000;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;
+	/*эфект съезжания вниз*/
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	transform: translate(0px, -100%);
+}
+.popup__close {
+	position: absolute;
+	right: 10px;
+	top: -70px;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+.popup__title {
+	line-height: 1.2;
+	font-size: 40px;
+	margin: 0px 0px 1em 0px;
+}
+.popup__text {
+	line-height: 1;
+	font-family: 'ProximaNova_bold', sans-serif;
+	font-size: 1.9rem;
+}
+table {
+    margin-left: 40rem;
+    table-layout: fixed, center;
+    width: 50%;
+    border-collapse: collapse;
+    border: 5px solid purple;
+    line-height: 2;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+}
+select  {
+    margin-left: 73rem;
+    font-size: 15px;
+    text-align: center;
+    background: #ADD8E6;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+.courses    {
+    font-family: 'ProximaNova_bold', sans-serif;
+    margin-left: 78rem;
+    left: 50rem;
+    font-size: 15px;
+    height: 20px;
+    color: white;
+}
